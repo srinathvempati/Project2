@@ -1,0 +1,47 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/mobilebg">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/enter_mobile_number"
+        android:textColor="#f00"
+        android:id="@+id/tv_mobilenumber"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="35sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/_91_9999999999"
+        android:layout_below="@+id/tv_mobilenumber"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:gravity="center"
+        android:background="@drawable/border1"
+        android:padding="10dp"
+        android:drawableStart="@drawable/ic_action_name_mobile"
+        android:id="@+id/et__91_9999999999"
+        android:inputType="phone"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/next_page"
+        android:layout_below="@+id/et__91_9999999999"
+        android:layout_marginTop="20dp"
+        android:padding="7dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:id="@+id/nextpage"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:drawableEnd="@drawable/ic_action_name_right_arrow"
+        android:background="@drawable/border1"/>
+</RelativeLayout>
